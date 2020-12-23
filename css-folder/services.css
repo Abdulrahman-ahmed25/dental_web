@@ -1,0 +1,33 @@
+.servisesContainer{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, auto);
+    padding: 40px 120px 100px;
+
+}
+.servisesContainer .serviceItem{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(231, 231, 231);
+    border-width: 1px 3px 1px 1px ;
+    border-collapse: collapse;
+    margin: 16px;
+    padding: 0 24px;
+    text-align: center;
+}
+.servisesContainer .serviceItem div img{
+width: 80px;
+height: 80px;
+margin-top: 16px;
+}
+.servisesContainer .serviceItem p{
+    text-align: justify;
+    color: rgb(150, 149, 149);
+    font-size: 17px;
+}
+h3{
+    line-height: 0;
+}

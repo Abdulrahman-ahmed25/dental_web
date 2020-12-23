@@ -1,0 +1,40 @@
+.doctorDetails {
+    margin: 0 auto;
+}
+.doc{
+    width: 90%;
+    height: 400px;
+    justify-content: space-around;
+    margin: 48px 0;
+}
+.doctorDetails .firstDoc{
+display: flex;
+
+}
+.doctorDetails .firstDoc img{
+width: 35%;
+height: 100%;
+}
+.doctorDetails .firstDoc div{
+width: 40%;
+margin: auto 0;
+}
+.doctorDetails .secondDoc{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.doctorDetails .secondDoc img{
+    width: 35%;
+    height: 100%;
+    }
+.doctorDetails .secondDoc div{
+    width: 40%;
+    margin: auto 0;
+
+    }
+ul{
+    list-style:none;
+    padding-left: 0;
+    color: gray;
+}

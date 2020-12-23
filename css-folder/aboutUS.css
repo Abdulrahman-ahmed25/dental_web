@@ -1,0 +1,38 @@
+
+
+ /* the second part sliderPlusDetails*/
+.sliderPlusDetails{
+    max-width: 84%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+
+}
+/* silder */
+.sliderPlusDetails .slider , .sliderPlusDetails .sliderDetails{
+    height: 100%;
+    width: 40%;
+    
+  }
+  
+  .sliderPlusDetails .slider .mySlides {
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    transition: opacity .5s ease-in;
+  }
+  
+  .mySlides + .mySlides { opacity: 1; }
+    
+  .sliderPlusDetails .sliderDetails p{
+    color: gray;
+} 
+  .sliderPlusDetails .sliderDetails p span{
+      font-weight: bold;
+  }
+ 
